@@ -27,7 +27,8 @@ GQUI 的所有元素或类都可单独使用，仅需引入单个 CSS 文件即�
 <link type="text/css" rel="stylesheet" href="/lib/css/gquery.ui.css" />
 ```
 
-选择性引入 GQUI.JS 获取功能增强，包括但不限于弹出框，代码列解析，自动分页等功能
+选择性引入 GQUI.JS 获取功能增强，包括但不限于弹出框，代码列解析，自动分页等功能。GQUI.JS 需要先引入 v1.4.5 及以上版本 gQuery。
 ```html
+<script type="text/javascript" src="/lib/js/gquery.js"></script>
 <script type="text/javascript" src="/lib/js/gquery.ui.js"></script>
 ```
