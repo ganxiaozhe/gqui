@@ -1,6 +1,7 @@
 # GQUI
 Simple, beauty and consider all layout. HTML, CSS, and optional JavaScript framework for developing responsive  on the web.
-Website: https://www.gquery.net/ui/
+
+Website: [https://www.gquery.net/ui/](https://www.gquery.net/ui/)
 
 ### 极简简简化
 简单好用，组件明确。可选择性引入 GQUI.JS 以获得功能增强。
