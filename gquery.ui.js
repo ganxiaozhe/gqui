@@ -81,7 +81,7 @@
 			spl || (spl='\n');lang || (lang='Text');
 			$('.code-autoParse:not([data-gpbind])').each(function(){
 				t.tax++;
-				let codes = this.innerHTML.toString();
+				let codes = this.innerHTML.replace(/&gt;/g,'>');
 				this.innerText = codes;
 				if(typeof hljs==='object' && 'highlight' in hljs){
 					hljs.highlightBlock(this);
